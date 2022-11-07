@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Pricing card</title>
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+           .container {
+              background-color: burlywood;
+              height: 650px;
+              width: 35%;
+              border-radius: 10px;
+              margin: auto;
+           }
+           p, li {
+            font-size: small;
+            font-weight: 600;
+           }
+           p {
+            padding: 15px 0 0 10px;
+           }
+           ul {
+            list-style-type: none;
+            padding-top: 20px;
+            padding-left: 10px;
+           }
+           ul li:before {
+            /* content: "\2714\0020"; \2713\0020 \2611\0020 */
+            content: "\2714\0020";
+           }
+           .child {
+            display: flex;
+            margin-top: 30px;
+           }
+           button {
+            padding: 10px;
+           border-radius: 20px;
+           width: 190px;
+           margin-left: 10px;
+           font-size: small;
+           }
+           .child h1 {
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 10px;
+           } 
+    </style>
+</head>
+<body>
+           <div class="container">
+                        <p>Plus</p>
+                        <p>For teams looking to create connected apps to manage their own workflows
+                        </p>
+                <div class="child">
+                        <h1>$10</h1>
+                        <p>per seat /month <br> billed annually</p>
+                </div>
+                <p>$12 billed monthly</p> <br>
+                   <button>Try for free</button>
+                   <p>Everything in Free, plus:</p>
+                         <ul>
+                                       <li>3 <span style="border-bottom: 1px dotted black;">extensions</span> per base </li>
+                                       <li>3 sync integrations</li>
+                                       <li>5,000 records per base</li>
+                                       <li>5GB of attatchments per base</li>
+                                       <li>Custom branded forms</li>
+                                       <li>6-months revision & snapshot history</li>
+                                       <li>Automatic table syncing</li>
+                         </ul>
+           </div>
+</body>
+</html>

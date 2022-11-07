@@ -1,0 +1,21 @@
+.card{
+    background-color: gray;
+    color: aliceblue;
+    border-radius: 15px;
+    border-style: solid;
+    width: 30%;
+    margin: auto;
+}
+
+.contact-card{
+    color: aliceblue;
+}
+
+td{
+    width: 50%;
+}
+
+.label{
+    font-weight: bold;
+    width: 70%;
+}
