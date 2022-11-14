@@ -1,0 +1,58 @@
+.section1 {
+    border: 1px solid green;
+    margin-top: 50px;
+}
+.section1 h1 {
+    font-size: 18px;
+}
+.section1 p {
+    font-size: 14px;
+    color: green;
+    margin-left: 20px;
+}
+.section1 ul {
+    font-size: 14px;
+    color: green;
+    margin-left: 20px;
+}
+.section1 li {
+    padding: 5px;
+}
+
+.section2 {
+    border: 1px solid red;
+    margin-top: 50px;
+}
+.section2 h2 {
+    font-size: 18px;
+}
+.section2 p, ul {
+    font-size: 14px;
+    color: red;
+    margin-left: 20px;
+}
+.section2 li {
+    padding: 5px;
+}
+
+table{
+    border: 1px solid blue;
+    margin-bottom: 20px;
+}
+td, th {
+    border: 1px solid blue;
+    font-size: 14px;
+    color: blue;
+}
+.section3 {
+    border: 1px solid blue;
+    margin-top: 30px;
+    margin-top: 50px;
+}
+.section3 p {
+    font-size: 14px;
+    color: blue;
+}
+.section3 h2 {
+    font-size: 14px;
+}
